@@ -17,7 +17,7 @@ html, body {
 }
 .navbar {
     width: 80%;
-    background: red;
+    /* background: red; */
     margin: 0 auto;
     height: 120px;
     display: flex;
@@ -25,9 +25,39 @@ html, body {
     align-items: center;
     font-size: 34px;
     font-weight: 700;
+    color: #4E47FF;
 }
 
-.home-btn {
-    padding: ;
+.button {
+    padding: 12px 22px;
+    font-size: 15px;
+    border-radius: 7px;
+    background: #4E47FF;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.center-text {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: red; */
+    margin: 200px auto;
+
+    .text {
+        text-align: center;
+        font-size: 57px;
+
+        .cool-text {
+            font-weight: 700;
+        }
+    }
+    .center-btn {
+        margin-top: 20px;
+    }
 }
 

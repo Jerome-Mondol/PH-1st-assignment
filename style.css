@@ -176,3 +176,34 @@ html, body {
     font-size: 20px;
     color: grey;
 }
+
+.focus {
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px auto 0 auto;
+    background: #FFFeFe;
+    border: 1px solid #F2EDED;
+    border-radius: 30px;
+    padding: 35px 0;
+}
+
+.focus h1 {
+    font-size: 50px;
+}
+
+.focus p {
+    margin-top: 10px;
+}
+
+.focus-btn {
+    margin-top: 10px;
+}
+
+.focus img {
+    margin-top: 20px;
+    border-radius: 30px;
+}

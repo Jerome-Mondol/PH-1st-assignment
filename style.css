@@ -122,3 +122,57 @@ html, body {
 .user-text h1 {
     margin-top: 20px;
 }
+
+.reviews {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.cards {
+    width: 75%;
+    /* background: red; */
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background: #FFFeFe;
+    border: 1px solid #F2EDED;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 20px 30px;
+    scale: 1.1;
+}
+
+
+.loved-text {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.loved-by {
+    margin-top: 5px;
+}
+
+.profile {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.profile img {
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.name h1 {
+    font-size: 20px;
+    color: grey;
+}

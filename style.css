@@ -267,3 +267,34 @@ html, body {
 .touch-button {
     width: 100%;
 }
+
+.footer {
+    width: 75%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.footer h1 {
+    font-size: 70px;
+    color: #4E47FF;
+    margin: 10px 0;
+}
+
+.footer p {
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+}
+
+.footer .links {
+    margin-top: 50px;
+}
+.footer .links a {
+    padding: 0 20px;
+    color: grey;
+    text-decoration: none;
+}

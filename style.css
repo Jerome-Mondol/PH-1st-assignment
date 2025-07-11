@@ -37,6 +37,14 @@ html, body {
     color: #fff;
     font-weight: 600;
     width: fit-content;
+    transition: .3s ;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #000;
+    /* color: #4E47FF; */
+    scale: 1.1;
 }
 
 .center-text {
@@ -139,10 +147,6 @@ html, body {
 }
 
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: column;
     background: #FFFeFe;
     border: 1px solid #F2EDED;
     border-radius: 20px;
@@ -151,18 +155,25 @@ html, body {
     scale: 1.1;
 }
 
+.stars {
+    display: flex;
+}
+
 
 .loved-text {
     font-size: 25px;
     margin-top: 5px;
+    text-align: left;
 }
 
 .loved-by {
     margin-top: 5px;
+    text-align: left;
 }
 
 .profile {
     display: flex;
+    text-align: left;
     margin-top: 20px;
     gap: 10px;
 }
@@ -206,4 +217,53 @@ html, body {
 .focus img {
     margin-top: 20px;
     border-radius: 30px;
+}
+
+.touch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+    width: 75%;
+    height: 50vh;
+    margin: 200px auto;
+    padding: 0 200px;
+}
+
+.touch-text h1 {
+    font-size: 75px;
+}
+
+.touch-form {
+    /* background: yellow; */
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+}
+.touch-form input {
+    width: 100%;
+    border: 1px solid grey;
+    height: 50px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.touch-form p {
+    font-size: 14px;
+    margin: 2px 0;
+    font-weight: 550;
+}
+
+.touch-form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.touch-button {
+    width: 100%;
 }
